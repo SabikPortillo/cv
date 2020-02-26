@@ -1,3 +1,11 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+ }
+ 
+ * {
+    font-family: myFirstFont;
+ }
 body {
     background-color: #1b262c;
     color: whitesmoke
