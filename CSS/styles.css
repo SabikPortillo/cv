@@ -1,7 +1,13 @@
+@font-face {
+    font-family: myFirstFont;
+    src:local(SansationLight)
+}
+
 
 body {
     background-color: #1b262c;
     color: whitesmoke;
+    font-family: "myFirstFont",serif;
     
 }
 hr{
