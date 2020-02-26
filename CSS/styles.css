@@ -1,13 +1,9 @@
-@font-face {
-    font-family: myFirstFont;
-    src:local(SansationLight)
-}
-
 
 body {
     background-color: #1b262c;
     color: whitesmoke;
-    font-family: "myFirstFont",serif;
+    font-family: 'Roboto Condensed', serif;
+    
     
 }
 hr{
@@ -20,11 +16,21 @@ hr{
     background-color: transparent
 }
 h1{
-    color: #acc0ce
+    color: #acc0ce;
+    font-family: 'Roboto Condensed', serif;
+    font-size: 50px;
+    font-style: normal;
+    margin-bottom: 0;
+
 }
 h3{
     color: #acc0ce
 }
 a{
     color: tomato;
+}
+p{
+    font-family: 'Roboto Condensed', serif;
+    margin-top: 0.1em;
+    margin-bottom: 0.5em;
 }
